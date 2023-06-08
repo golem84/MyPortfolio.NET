@@ -11,15 +11,9 @@ namespace DataLayer.EfClasses
     public class Event
     {
         public int EventId { get; set; }
-        [Required]
-        [MaxLength(256)]
-        [Column("Descr")]
         public string Description { get; set; } = "";
         public DateOnly EventDate { get; set; }
         public MileAge? MileAge { get; set; }
-        [Required]
-        [MaxLength(512)]
-        [Column("Content")]
         public string WorkContent { get; set; } = "";
         public decimal PartsPrice { get; set; } = 0;
         public decimal WorkCost { get; set; } = 0;
