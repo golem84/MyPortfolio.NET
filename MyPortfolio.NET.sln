@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{81C5549C-A521-46F4-AF73-3BE0EB4034FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{81C5549C-A521-46F4-AF73-3BE0EB4034FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{47176B95-462D-434C-AA45-6E00E6673385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{81C5549C-A521-46F4-AF73-3BE0EB4034FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C5549C-A521-46F4-AF73-3BE0EB4034FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C5549C-A521-46F4-AF73-3BE0EB4034FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47176B95-462D-434C-AA45-6E00E6673385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47176B95-462D-434C-AA45-6E00E6673385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47176B95-462D-434C-AA45-6E00E6673385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47176B95-462D-434C-AA45-6E00E6673385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

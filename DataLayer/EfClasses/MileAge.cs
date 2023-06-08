@@ -10,8 +10,11 @@ namespace DataLayer.EfClasses
         public DateOnly Date { get; set; }
         public int Miles { get; set; }
 
+        /*
         // Relationships
+        public int CarId { get; set; }
+        */
 
-
+        
     }
 }
