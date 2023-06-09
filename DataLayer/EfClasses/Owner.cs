@@ -14,6 +14,10 @@ namespace DataLayer.EfClasses
         
 
         // Relationships
-        public ICollection<Car>? Cars { get; set; }
+        public virtual ICollection<Car> Cars { get; set; }
+        public Owner()
+        {
+            this.Cars = new HashSet<Car>();
+        }
     }
 }

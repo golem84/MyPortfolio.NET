@@ -9,6 +9,7 @@ namespace DataLayer.EfCode
 {
     public class MySqlDbContext: DbContext
     {
+        /*
         public DbSet<Owner> Owners {get;set;}
         public DbSet<Car> Cars { get;set;}
         public DbSet<MileAge> MileAges { get;set;}
@@ -22,5 +23,6 @@ namespace DataLayer.EfCode
             optionsBuilder.UseMySQL(conn);
             //Console.WriteLine("Database created successfully.");
         }
+        */
     }
 }

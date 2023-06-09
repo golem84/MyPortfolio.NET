@@ -10,7 +10,7 @@ namespace DataLayer.EfClasses
         public string BrandName { get; set; } = "";
         
         public string Model { get; set; } = "";
-        public string? RegNumber { get; set; }
+        public string RegNumber { get; set; } = "";
         
         public DateOnly ManufactureDate { get; set; }
         

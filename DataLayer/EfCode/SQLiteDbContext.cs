@@ -10,10 +10,10 @@ namespace DataLayer.EfCode
         //private const string ConnectionString = "c:\\mydb.db;";
 
 
-        public DbSet<Owner> Owners { get; set; }
-        public DbSet<Car> Cars { get; set; }
-        public DbSet<MileAge> MileAges { get; set; }
-        public DbSet<Event> Events { get; set; }
+        public DbSet<Owner>? Owners { get; set; }
+        public DbSet<Car>? Cars { get; set; }
+        public DbSet<MileAge>? MileAges { get; set; }
+        public DbSet<Event>? Events { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
